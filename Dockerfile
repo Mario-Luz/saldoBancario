@@ -1,5 +1,4 @@
-FROM maven:3.6.3-jdk-11
-WORKDIR /saldobancario
-COPY . .
-RUN mvn clean install
-CMD mvn spring-boot:run
+FROM openjdk:8-jre-alpine
+COPY target/*.jar saldoBancario.jar
+EXPOSE 8089
+ENTRYPOINT ["java", "-jar", "saldoBancario.jar"]
