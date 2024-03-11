@@ -1,0 +1,7 @@
+com\saldobancario\saldobancario\controller\GlobalControllerExceptionHandler.class
+com\saldobancario\saldobancario\model\dto\SaldoBancarioDto.class
+com\saldobancario\saldobancario\controller\SaldoBancarioController.class
+com\saldobancario\saldobancario\repository\SaldoBancarioRepository.class
+com\saldobancario\saldobancario\SaldobancarioApplication.class
+com\saldobancario\saldobancario\services\SaldoBancarioService.class
+com\saldobancario\saldobancario\model\SaldoBancarioModel.class
